@@ -119,9 +119,26 @@ Full result: 3.628771439286258
 
 // }
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 8 ==========
+Q: Get Today’s Date
+Create a Date object.
+Show the full date in this format: DD/MM/YYYY.
 */
+// -----ans--------
+
+// function dat(){let current = new Date();
+//             document.getElementById('ph').innerHTML = current;
+//             let dt = current.toLocaleDateString();
+//             document.getElementById('ph1').innerHTML = dt;
+//             let time = current.toLocaleTimeString();
+//             document.getElementById('ph2').innerHTML = time;
+//             let currentDate = current.getDate();
+//             document.getElementById('ph3').innerHTML = currentDate;
+//             let currentHour = current.getHours();
+//             document.getElementById('ph4').innerHTML = currentHour;
+//             let currentMinutes = current.getMinutes();
+//             document.getElementById('ph5').innerHTML = currentMinutes;
+// }
 
 
 
