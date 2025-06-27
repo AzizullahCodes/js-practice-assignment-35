@@ -143,32 +143,126 @@ Show the full date in this format: DD/MM/YYYY.
 
 
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 9 ==========
+Q: Countdown Timer
+Create a countdown from now to New Year (January 1, 2026). Calculate how many:
+Days
+Hours
+Minutes
+Seconds
+are left.
 */
+// -------- ans ---------
+// function practicing(){let current = new Date();
+//    document.getElementById('p1').innerHTML = current;
+//    let currentMilliSeconds = current.getTime();
+//    let required = new Date('01 01 2026');
+//    let requiredINMilliSeconds = required.getTime();
+//    let difference = requiredINMilliSeconds - currentMilliSeconds;
+//    document.getElementById('p2').innerHTML = difference;
+//    let remainingDays = Math.floor(difference/(1000*60*60 *24));
+//    document.getElementById('p3').innerHTML = remainingDays + ' days';
+//    let remainingHours = Math.floor(difference/(1000*60*60));
+//    document.getElementById('p4').textContent = remainingHours + ' Hours';
+//    let remainingMinutes = Math.floor(difference/(1000*60));
+//    document.getElementById('p5').textContent = remainingMinutes + ' minutes';
+//    let remainingSeconds = Math.floor(difference/(1000));
+//    document.getElementById('p6').textContent = remainingSeconds + ' seconds';
+// }
 
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 10 ==========
+Q: Day of the Week:
+Ask the user to enter a number (1–7) and display the corresponding day name using a switch.
+Example: 1 → Sunday, 2 → Monday, ...
 */
+//  let get = prompt('enter number')
+// function dd(){let get = document.getElementById('it').value;
+//    let day;
+
+//    switch (get){ 
+//    case ('1'): day = 'sunday';
+//    break;
+//    case ('1'): day = 'sunday';
+//    break;
+//    case ('2'): day = 'monday';
+//    break;
+//    case ('3'): day = 'tuesday';
+//    break;
+//    case ('4'): day = 'wednesday';
+//    break;
+//    case ('5'): day = 'thursday';
+//    break;
+//    case ('6'): day = 'friday';
+//    break;
+//    case ('7'): day = 'saturday';
+//    break;
+//    default: day = 'Invalid entry'
+// }
+// document.getElementById('p2').innerHTML = day + ' days';
+
+// }
 
 
+/* ========== Question 12 ==========
+Q: Electricity Bill Slab:
+Input units consumed:
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+0–100: Rs. 5/unit
+
+101–200: Rs. 8/unit
+
+201–300: Rs. 10/unit
+
+>300: Rs. 12/unit
+Use switch(true) and conditions to apply the correct slab.
+
 */
+// ============= ans =========
+// function billing(){let get = document.getElementById('it').value;
+//    let unit;
+//    switch (true){case (get >= 0 && get <= 100):unit = '5 rupees per unit';
+//       break;
+//       case(get >=101 && get <=200):unit = '10 rupees per unit';
+//       break;
+//       case(get >= 201 && get <= 300) :unit = '12 rupees per unit';
+//       break;
+      
+//       default: unit ='invalid entry'
+//    }
+//    document.getElementById('p').innerHTML = unit;
+// }
 
 
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 12 ==========
+Q: create element by js
 */
+// _____ ans ____
+// console.log(getDiv);
+// let newElement = document.createElement('h2');
+// let getDiv = document.getElementById('container');
+// console.log(newElement);
+// var newElementContent = document.createTextNode('I learnt js');
+// console.log(newElementContent);
+// newElement.appendChild(newElementContent);
+// console.log(newElement);
+// getDiv.appendChild(newElement);
 
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 13 ==========
+Q: create element by js
 */
+// ans 
+// let getDiv = document.getElementById('dv');
+// console.log(getDiv);
+// let createHeading = document.createElement('h5');
+// console.log(createHeading);
+// let createContent = document.createTextNode('My College tenure');
+// console.log(createContent);
+// createHeading.appendChild(createContent);
+// console.log(createHeading);
+// getDiv.appendChild(createHeading);
 
 
 /* ========== Question 4 ==========
