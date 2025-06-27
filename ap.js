@@ -463,16 +463,71 @@ Q: create direct div by js and show on dom?
 // myDiv.style.height = '100px';
 // myDiv.style.background = 'blue'
 
-/* ========== Question 4 ==========
+/* ========== Question 23 ==========
+Q: todo app
+*/
+// let myInput = document.createElement('input');
+// document.body.appendChild(myInput);
+// myInput.setAttribute('id','it');
+// console.log(myInput)
+// let btn = document.createElement('button');
+// let btnText = document.createTextNode('enter');
+// btn.appendChild(btnText);
+// document.body.appendChild(btn);
+// btn.setAttribute('onclick','entry()');
+// console.log(btn)
+
+// let div = document.createElement('p');
+// div.setAttribute('id','myDiv');
+// console.log(div);
+// document.body.appendChild(div);
+// div.style.width = '50px';
+// div.style.height = '40px';
+// div.style.border = '2px solid red';
+
+
+
+
+// function entry(){let get = document.getElementById('it').value;
+//    console.log(get);
+//    let get2 = document.getElementById('myDiv').innerHTML;
+
+//    let liEl = document.createElement('li');
+//    var liContent = document.createTextNode()
+   
+   
+// }
+var ulEl = document.getElementById('ul');
+
+var todoInputEl = document.getElementById('todo-input');
+
+function addItem(){
+
+   var liEl = document.createElement('li'); 
+var buttonEl = document.createElement('button');
+var btnText = document.createTextNode('delete item')
+buttonEl.appendChild(btnText);
+   var liContent = document.createTextNode(todoInputEl.value);
+
+   liEl.appendChild(liContent);
+   liEl.appendChild(buttonEl)
+
+   ulEl.appendChild(liEl);
+
+   todoInputEl.value = '';
+
+   todoInputEl.focus();
+
+}
+
+function deleteItem(){console.log('deleted')}
+
+/* ========== Question 24 ==========
 Q: Replace all occurrences of a character in a string.
 */
-
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
-*/
-
+console.log(todoInputEl.value);
+   todoInputEl.value = '';
+   todoInputEl.focus();
 
 
 
