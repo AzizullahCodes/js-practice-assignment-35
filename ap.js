@@ -265,42 +265,151 @@ Q: create element by js
 // getDiv.appendChild(createHeading);
 
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 14 ==========
+Q:  Create a Paragraph
+
+Create a paragraph (<p>) with the text “Hello JavaScript DOM” and 
+ it inside a <div> with ID output.
 */
+// ans 
+// let get = document.getElementById('output');
+// console.log(get);
+// let newElement = document.createElement('p');
+// console.log(newElement);
+// let newElementContent = document.createTextNode('Hello js dom');
+// console.log(newElementContent);
+// newElement.appendChild(newElementContent);
+// console.log(newElement);
+// get.appendChild(newElement);
 
 
+/* ========== Question 15 ==========
+Q:Create a Button
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+Dynamically create a button that says "Click Me". When
+clicked, it shows an alert "Button clicked!"..
 */
+// ans 
+// let get = document.getElementById('output');
+// console.log(get)
+// let createButton = document.createElement('button');
+// console.log(createButton);
+// let buttonContent = document.createTextNode('click me');
+// console.log(buttonContent);
+// createButton.appendChild(buttonContent);
+// console.log(createButton);
+// get.appendChild(createButton);
 
 
 
+/* ========== Question 16 ==========
+Q: Add List Items
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+Create an unordered list <ul> and append 3 list items (<li>) 
+with the text: "One", "Two", "Three".
 */
+// ans 
+// let get = document.getElementById('output');
+// console.log(get);
+// let createUnList = document.createElement('ul');
+// console.log(createUnList);
+// let liOne = document.createElement('li');
+// console.log(liOne);
+// let liOneContent = document.createTextNode('one');
+// liOne.appendChild(liOneContent);
+// console.log(liOne);
+// let li2 = document.createElement('li');
+// let li2Content = document.createTextNode('two');
+// li2.appendChild(li2Content);
+// console.log(li2);
+// let li3 = document.createElement('li');
+// let li3Content = document.createTextNode('three'
+// )
+// li3.appendChild(li3Content);
+// console.log(li3);
+// createUnList.appendChild(liOne+li2+li3);
+// console.log(createUnList);
+// get.appendChild(createUnList)
 
+// up code is not working 
+// we need to write another code 
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+// let get = document.getElementById('container');
+// let ul = document.createElement('ul');
+// let items = ['one','two','three'];
+// for(let i = 0; i < items.length; i++)
+// {let li = document.createElement('li');
+//    let text = document.createTextNode(items[i]);
+//    li.appendChild(text);
+//    ul.appendChild(li)
+// }
+// get.appendChild(ul)
+
+/* ========== Question 17 ==========
+Q: creat another ul and li by 
 */
+// ans 
 
+// let get = document.getElementById('container');
 
+// let ul = document.createElement('ul');
+// console.log(ul);
+// let item = ['home','about','services','contact','help'];
+// console.log(item)
 
+// for(let i = 0; i < item.length; i++){
+//    let li = document.createElement('li');
+//    console.log(li);
+//    let text = document.createTextNode(item[i]);
+//    li.appendChild(text);
+//    ul.appendChild(li)
+// }
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+// get.appendChild(ul)
+
+/* ========== Question 18 ==========
+Q: long li by dom 
 */
+// ans 
+// let get = document.getElementById('container');
+// let ul = document.createElement('ul');
+// console.log(ul);
+// let items = ['Home','About','Contact','Services','Help','Other Issues','Support','It Services'];
+// console.log(items);
+
+// for(let i = 0; i < items.length; i++){
+//    let li = document.createElement('li');
+   
+//    let text = document.createTextNode(items[i]);
+//    li.appendChild(text);
+//    ul.appendChild(li)
+// }
+// get.appendChild(ul)
 
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 19 ==========
+Q: Dynamic Form Generator
+Create a form with:
+Input (type="text")
+Input (type="email")
+Button (text: "Submit")
+All created dynamically using JS.
 */
+// ans 
+// let get = document.getElementById('container');
+// console.log(get)
+// let firstInput = document.createElement('input');
+// firstInput.setAttribute('type','text');
+// console.log(firstInput);
+// let secondInput = document.createElement('input');
+// secondInput.setAttribute('type','email');
+// console.log(secondInput);
+// let btn = document.createElement('button');
 
-
+// let btnText = document.createTextNode('submit');
+//     btn.appendChild(btnText);
+//     console.log(btn)
+// get.appendChild(firstInput,secondInput)
 
 /* ========== Question 4 ==========
 Q: Replace all occurrences of a character in a string.
