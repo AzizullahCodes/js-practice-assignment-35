@@ -411,21 +411,57 @@ All created dynamically using JS.
 //     console.log(btn)
 // get.appendChild(firstInput,secondInput)
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 20 ==========
+Q: create heading, para,span ,by dom
+*/
+// ans 
+// let get = document.getElementById('container');
+// console.log(get);
+// let heading = document.createElement('h1');
+// let headingText = document.createTextNode('Islamabad');
+// heading.appendChild(headingText);
+// console.log(heading);
+// let para = document.createElement('p');
+// let paraText = document.createTextNode('I live in islamabad');
+// para.appendChild(paraText);
+// console.log(para);
+// let span = document.createElement('span');
+// let spanText = document.createTextNode('name');
+// span.appendChild(spanText);
+// console.log(span);
+
+// get.appendChild(heading);
+// get.appendChild(para);
+// get.appendChild(span);
+
+/* ========== Question 21 ==========
+Q: create a footer and inside footer a p 
+*/
+// let get = document.getElementById('container');
+// console.log(get)
+// let foot = document.createElement('footer');
+// console.log(foot);
+// let para = document.createElement('p');
+// console.log(para);
+// let paraContent = document.createTextNode('it is a paragraph inside footer');
+// console.log(paraContent);
+// para.appendChild(paraContent);
+// console.log(para)
+// foot.appendChild(para);
+// console.log(foot);
+// get.appendChild(foot);
+// console.log(get);
+
+
+/* ========== Question 22 ==========
+Q: create direct div by js and show on dom?
 */
 
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
-*/
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
-*/
-
+// let myDiv = document.createElement('div');
+// document.body.appendChild(myDiv);
+// myDiv.style.width = '100px';
+// myDiv.style.height = '100px';
+// myDiv.style.background = 'blue'
 
 /* ========== Question 4 ==========
 Q: Replace all occurrences of a character in a string.
