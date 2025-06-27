@@ -497,43 +497,70 @@ Q: todo app
    
    
 // }
-var ulEl = document.getElementById('ul');
+// var ulEl = document.getElementById('ul');
 
-var todoInputEl = document.getElementById('todo-input');
+// var todoInputEl = document.getElementById('todo-input');
 
-function addItem(){
+// function addItem(){
 
-   var liEl = document.createElement('li'); 
-var buttonEl = document.createElement('button');
-var btnText = document.createTextNode('delete item')
-buttonEl.appendChild(btnText);
-   var liContent = document.createTextNode(todoInputEl.value);
+//    var liEl = document.createElement('li'); 
+// var buttonEl = document.createElement('button');
+// var btnText = document.createTextNode('delete item')
+// buttonEl.appendChild(btnText);
+//    var liContent = document.createTextNode(todoInputEl.value);
 
-   liEl.appendChild(liContent);
-   liEl.appendChild(buttonEl)
+//    liEl.appendChild(liContent);
+//    liEl.appendChild(buttonEl)
 
-   ulEl.appendChild(liEl);
+//    ulEl.appendChild(liEl);
 
-   todoInputEl.value = '';
+//    todoInputEl.value = '';
 
-   todoInputEl.focus();
+//    todoInputEl.focus();
 
-}
+// }
 
-function deleteItem(){console.log('deleted')}
+// function deleteItem(){console.log('deleted')}
 
 /* ========== Question 24 ==========
-Q: Replace all occurrences of a character in a string.
+Q: date() practice
 */
-console.log(todoInputEl.value);
-   todoInputEl.value = '';
-   todoInputEl.focus();
+// ans 
+// function dateFunction(){let current = Date();
+// document.getElementById('p1').innerHTML = typeof current;
+//              current = new Date();
+//              document.getElementById('p2').textContent = typeof current;
+
+//          let dayName = ['sun','mon','tues','wed','thurs','fri','sat'];
+//          let day = current.getDay();
+//          console.log(day);
+//          document.getElementById('p3').innerHTML = day;
+//          let result = dayName[day];
+//          document.getElementById('p4').innerHTML = result
+
+// }
 
 
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 25 ==========
+Q: 
+Use a for loop to create 5 <div> elements
+Each one should contain text: "Box 1", "Box 2", etc.
+Append all inside a parent container <div class="boxes">
 */
+// ----- ans -------
+// let main = document.createElement('div');
+// document.body.appendChild(main);
+// main.style.width = '200px';
+// main.style.height = '100px';
+// main.style.background = 'blue';
+
+// let items = ['box1','box2','box3','box4','box5'];
+// for(let i = 0 ; i < items.length; i++){let div = document.createElement('div');
+//    let text  = document.createTextNode(items[i]);
+//    div.appendChild(text);
+//    main.appendChild(div)
+// }
 
 
 /* ========== Question 4 ==========
