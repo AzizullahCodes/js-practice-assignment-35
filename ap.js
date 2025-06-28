@@ -563,58 +563,135 @@ Append all inside a parent container <div class="boxes">
 // }
 
 
+/* ========== Question 26 ==========
+Q: Math.round,ceil,floor etc
+*/
+// ans 
+// function rounding(){let get = document.getElementById('it').value;
+                  
+//     let round =Math.round(get);
+//    document.getElementById('p1').innerHTML = round;
+// }
+
+// function fixing(){let get2 = document.getElementById('it2').value;
+//                     get2 = Number(get2)
+//        let fix = get2.toFixed(3);
+//        document.getElementById('ppp').textContent = fix;
+// }
+
+
+/* ========== Question 27 ==========
+Q: Show Current Date in Custom Format
+Goal: Display the current date as Day-Month-Year
+Example Output: 28-06-2025
+*/
+// let current = new Date();
+// let date = current.getDate();
+// let month = current.getMonth()+1;
+// let year = current.getFullYear();
+// let result = date + '-' + '0' + month + '-' + year;
+// console.log(result)
+
+
+
+/* ========== Question 28 ==========
+Q: Change Date to a Specific Date
+Goal: Change the date to 1st January 2024 and log it.
+*/
+// ans 
+// let current = new Date();
+// current.setDate('01');
+// current.setMonth('03');
+// current.setFullYear('2020');
+// console.log(current)
+
+
+
 /* ========== Question 4 ==========
 Q: Replace all occurrences of a character in a string.
 */
 
 
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 29 ==========
+Q: todo app
 */
+// let ulEl = document.getElementById('ul');
+// let todoInputEl = document.getElementById('todo-input');
+
+// function addItem(){var liEl = document.createElement('li');
+//    var liContent = document.createTextNode(todoInputEl.value);
+//    liEl.appendChild(liContent);
+//    ulEl.appendChild(liEl);
+//    todoInputEl.value = '';
+//    todoInputEl.focus();
+// }
 
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 30 ==========
+Q: todo list practice 
 */
+// let input = document.getElementById('todo-input');
+// let ulList = document.getElementById('ul');
+
+// function addItem(){let li = document.createElement('li');
+//        let btn = document.createElement('button');
+//        let btnContent = document.createTextNode('delete item');
+//        btn.appendChild(btnContent);
+      
+
+//    let liContent = document.createTextNode(input.value);
+//    li.appendChild(liContent);
+//    ulList.appendChild(li);
+//    li.appendChild(btn)
+//    input.value = '';
+//    input.focus();
+
+// }
 
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 31 ==========
+Q: todo list
 */
+// let toDoInput = document.getElementById('todoinput');
+// let toDoUl = document.getElementById('todoul');
 
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+// function addItem(){let li = document.createElement('li');
+//    let liContent = document.createTextNode(toDoInput.value); 
+//    li.appendChild(liContent);
+//    toDoUl.appendChild(li);
+//    toDoInput.value = '';
+//    toDoInput.focus();
+//    let btn = document.createElement('button');
+//    let btnContent = document.createTextNode('Delete Item');
+//    btn.appendChild(btnContent);
+//    li.appendChild(btn);
+// }
+/* ========== Question 32 ==========
+Q:  Simple Repeat
+Question:
+Ask the user to enter a word and a number. Show the word repeated that 
+number of times.
+Example Output:
+If input is "Hello" and number is 3, output:
 */
+// ans 
+// function repeating(){let getWord = document.getElementById('word').value;
+//    let getNumber = document.getElementById('number').value;
+//    let result = getWord.repeat(getNumber);
+//    document.getElementById('pp').innerHTML = result;
+// }
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ==========  question 33 ==========
+Q:  Make a Star Pattern (One Line)
+Question:
+Use .repeat() to create a line of 20 stars: ********************
 */
-
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
-*/
-
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
-*/
-
-
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
-*/
+function repeating(){let patt = document.getElementById('pattern').value;
+   let repeatNumber = Number(document.getElementById('number'));
+   let requirement = patt.repeat(repeatNumber);
+   document.getElementById('pp').innerHTML = requirement;
+}
 
 
 /* ========== Question 4 ==========
