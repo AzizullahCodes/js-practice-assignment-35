@@ -729,21 +729,44 @@ stars with n rows:
 //       document.getElementById("result").innerText = result;
 //     }
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 36 ==========
+Q: create a shape by taking any symbol
 */
+// function repeating(){let sign = document.getElementById('str').value; 
+//       let time = parseFloat(document.getElementById('number').value);
+//       let result = '';
+//       for(let i = 0 ; i <= time; i ++){result = result + sign.repeat(i) + '\n';}
+//       document.getElementById('result').innerHTML = result;
+// }
 
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 37 ==========
+Q: print a pattern by repeat( )
 */
+//  function repeating(){let getSign = document.getElementById('str').value; 
+//     let getTime = Number(document.getElementById('number').value);
+//     let result = '';
+    
+//     for(let i = 0 ; i <= getTime ; i++){result = result+ getSign.repeat(i) + '\n';}
+//     document.getElementById('result').innerHTML = result;
+  
+
+//   }
 
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 38 ==========
+Q: mask data function 
+3252-7688-787876-98
+show like 3252-7688*******-98
 */
+function mask(){let getData = document.getElementById('it').value;
+   let first = getData.slice(0,16);
+   let second = getData.slice(getData.length-3);
+   document.getElementById('p1').innerHTML = first;
+   document.getElementById('p2').innerHTML = second;
+   document.getElementById('p3').innerHTML = getData
+
+}
 
 
 /* ========== Question 4 ==========
