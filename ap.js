@@ -687,25 +687,47 @@ Q:  Make a Star Pattern (One Line)
 Question:
 Use .repeat() to create a line of 20 stars: ********************
 */
-function repeating(){let patt = document.getElementById('pattern').value;
-   let repeatNumber = Number(document.getElementById('number'));
-   let requirement = patt.repeat(repeatNumber);
-   document.getElementById('pp').innerHTML = requirement;
-}
+// function repeating(){let patt = document.getElementById('pattern').value;
+//    let repeatNumber = Number(document.getElementById('number').value);
+//    let requirement = patt.repeat(repeatNumber);
+//    document.getElementById('pp').innerHTML = requirement;
+// }
 
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 34 ==========
+Q:  Repeat With Space
+Question:
+Ask the user for a word and repeat it 5 times with a space in between:
+Input: "Hi" → Output: "Hi Hi Hi Hi Hi "
 */
+// function repeating(){let getWord = document.getElementById('word').value; 
+//    let repeatNumber = document.getElementById('number').value; 
+//    let requirement = (getWord + ' ').repeat(repeatNumber);
+//    document.getElementById('pp').innerHTML = requirement;
+// }
 
-
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 35 ==========
+Q: Ask the user for a number n, then print a right‑angled triangle of 
+stars with n rows:
 */
+// function repeating(){let getSign = document.getElementById('string').value;
+//    let time = Number(document.getElementById('number').value);
+//    let result = '';
+//    for(var i = 0; i <= time; i++){result = result +(getSign).repeat(i) + '\n';}
+   
+//    document.getElementById('result').textContent = result;
+// }
 
+// function drawTriangle() {
+//       let n = document.getElementById("inputNumber").value;
+//       let result = "";
 
+//       for (let i = 1; i <= n; i++) {
+//         result += "*".repeat(i) + "\n";
+//       }
+
+//       document.getElementById("result").innerText = result;
+//     }
 
 /* ========== Question 4 ==========
 Q: Replace all occurrences of a character in a string.
