@@ -898,21 +898,32 @@ Enter number: -2 → false.
 /* ========== Question 48 ==========
 Q:  voting eligibility checker
 */
- function eligibilityChecker(){let age = document.getElementById('age').value;
-    let country = document.getElementById('country').value;
-    let candidate = document.getElementById('candidate').value; 
-    if(age >= 18 && country === 'pak' || candidate === 'khan'){document.getElementById('ph').innerHTML = 'you are eligible for voting'}
-   else{document.getElementById('ph').innerHTML = 'not eligible'}
-/}
+//  function eligibilityChecker(){let age = document.getElementById('age').value;
+//     let country = document.getElementById('country').value;
+//     let candidate = document.getElementById('candidate').value; 
+//     if(age >= 18 && country === 'pak' || candidate === 'khan'){document.getElementById('ph').innerHTML = 'you are eligible for voting'}
+//    else{document.getElementById('ph').innerHTML = 'not eligible'}
+// }
 
-/* ========== Question 48 ==========
-Q:  : Check if Input is Empty
-Ask the user to enter something in an input box.
-Use ! to check if the input is empty and show a message like "Please 
- a value" if it's empty.
+/* ========== Question 49 ==========
+Q:  :  Check if Image Has Alt Attribute
+Goal: Use hasAttribute() to check if an image has an alt attribute.
+
+🧠 If not present, show a message like "Image missing alt text."
 */
+// function checkingAttribute(){let getImg = document.getElementById('myImg');
+//    let result = getImg.hasAttribute('alt');
+//    document.getElementById('p1').innerHTML = result;
+// }
 
 
-/* ========== Question 48 ==========
-Q:  voting eligibility checker
+/* ========== Question 50 ==========
+Q:  Show the Href of a Link
+Goal: Use getAttribute() to get the URL from a link and show it.
 */
+// function checking(){let get = document.getElementById('hrf');
+//                   let result1 = get.hasAttribute('href');
+//                   document.getElementById('p1').innerHTML = result1;
+//                   let valu = get.getAttribute('href');
+//                   document.getElementById('p2').innerHTML = valu;
+// }
