@@ -759,44 +759,79 @@ Q: mask data function
 3252-7688-787876-98
 show like 3252-7688*******-98
 */
-function mask(){let getData = document.getElementById('it').value;
-   let first = getData.slice(0,16);
-   let second = getData.slice(getData.length-3);
-   document.getElementById('p1').innerHTML = first;
-   document.getElementById('p2').innerHTML = second;
-   document.getElementById('p3').innerHTML = getData
+// function mask(){let getData = document.getElementById('it').value;
+//    let first = getData.slice(0,9);
+//    let second = getData.slice(getData.length-3);
+//    document.getElementById('p1').innerHTML = first;
+//    document.getElementById('p2').innerHTML = second;
+//    document.getElementById('p3').innerHTML = getData;
+//    let need = '*'.repeat(8);
+//    document.getElementById('p4').innerHTML = need;
+//    let result = first + need + second;
+//    document.getElementById('p5').innerHTML = result;
 
-}
+// }
 
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 39 ==========
+Q: math.sqrt()
 */
-
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+// function sqrting(){let get = document.getElementById('it').value;
+//    let result = Math.sqrt(get);
+//    document.getElementById('ph').textContent = result;
+// }
+/* ========== Question 40 ==========
+Q: math.abs( )
 */
+// function absoluting(){let get = document.getElementById('it').value;
+//              let result = Math.abs(get);
+//              document.getElementById('ph').innerHTML = result;
+// }
 
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 41 ==========
+Q: math.max();
 */
+// let numbers = [33,87,23];
+// let result = Math.max(...numbers);
+// console.log(result)
+// let num1 = 87;
+// let num2 = 34;
+// let num3 = 299;
+// let result = Math.max(num1,num2,num3);
+// console.log(result)
+
+// function maxnumber(){let num1 = Number(document.getElementById('it1').value);
+//    let num2 = Number(document.getElementById('it2').value);
+//    let num3 = Number(document.getElementById('it3').value);
+//    let num4 = Number(document.getElementById('it4').value);
+
+//    let result = Math.max(num1,num2,num3,num4);
+//    document.getElementById('dv').innerText = result;
+// }
 
 
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 42 ==========
+Q: push();
 */
+// let fruits = [];
+// function addFruit(){
+//    let fruit = document.getElementById('fruitInput').value;
+//    if(fruit !== ''){fruits.push(fruit);
+//       document.getElementById('fruitInput').value = '';
+//       document.getElementById('fruitOutput').innerHTML = fruits.join(", ");
+//    }
+// }
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 43 ==========
+Q: push method
 */
-
+// let fruits = [];
+// function pushing(){let get = document.getElementById('fruitInput').value; 
+//    if(get !== ''){fruits.push(get);
+//       document.getElementById('fruitInput').value = '';
+//    document.getElementById('ph').textContent = fruits.join(", ")   }
+// }
 
 
 
