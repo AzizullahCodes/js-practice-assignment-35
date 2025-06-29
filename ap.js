@@ -835,29 +835,84 @@ Q: push method
 
 
 
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 44 ==========
+Q: array all methods
+*/
+// let array = ['apple','mango','grapes','orange'];
+// console.log(array);
+//     array = array.push('carrot');
+//     console.log(array)
+// array = array.unshift();
+// console.log(array)
+// array = array.pop();
+// console.log(array);
+// array = array.shift();
+// console.log(array);
+// array.unshift('melon');
+// console.log(array)
+
+// let arrayNew = array.slice(2);
+// console.log(arrayNew);
+// array = array.splice(1,0,'guava');
+// console.log(array)
+
+/* ========== Question 45 ==========
+Q: let fruits = ["Apple", "Banana", "Mango", "Grapes"]; reverse it 
+*/
+// let fruits = ['apple','banana','mango','grapes'];
+// let result = fruits.reverse();
+// console.log(result)
+
+
+/* ========== Question 46 ==========
+Q:  Merge Numbers
+let nums1 = [1, 2, 3];
+let nums2 = [4, 5, 6];
+let nums3 = [7, 8];
+*/
+// let nums1 = [1,2,3];
+// let nums2 = [4,5,6];
+// let nums3 = [7,8];
+// let merge = nums1.concat(nums2,nums3);
+// console.log(merge)
+
+
+/* ========== Question 47 ==========
+Q: Ask the user for a number and check whether it's positive. Show true if positive, otherwise false.
+
+Example Output:
+Enter number: 5 → true
+Enter number: -2 → false.
+*/
+
+// function checker(){let get = document.getElementById('it').value;
+//    let isPositive = false;
+// if(get > 0){isPositive = true;
+//    document.getElementById('ph').innerHTML = 'positive';
+// }
+// else{isPositive = false;
+//    document.getElementById('ph').innerHTML = 'negative'
+// }
+// }
+
+/* ========== Question 48 ==========
+Q:  voting eligibility checker
+*/
+ function eligibilityChecker(){let age = document.getElementById('age').value;
+    let country = document.getElementById('country').value;
+    let candidate = document.getElementById('candidate').value; 
+    if(age >= 18 && country === 'pak' || candidate === 'khan'){document.getElementById('ph').innerHTML = 'you are eligible for voting'}
+   else{document.getElementById('ph').innerHTML = 'not eligible'}
+/}
+
+/* ========== Question 48 ==========
+Q:  : Check if Input is Empty
+Ask the user to enter something in an input box.
+Use ! to check if the input is empty and show a message like "Please 
+ a value" if it's empty.
 */
 
 
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
-*/
-
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
-*/
-
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
-*/
-
-
-/* ========== Question 4 ==========
-Q: Replace all occurrences of a character in a string.
+/* ========== Question 48 ==========
+Q:  voting eligibility checker
 */
